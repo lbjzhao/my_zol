@@ -1,0 +1,355 @@
+/*=======================================头部式样==============================*/
+#header{
+    width: 990px;
+    height: 84px;
+    margin: 0 auto;
+    position: relative;
+}
+.logo-wrap{
+    display: block;
+    width: 368px;
+    height: 84px;
+    position: relative;
+}
+.logo{
+    position: absolute;
+    left: 0;
+    top: 12px;
+}
+.logoName{
+    position: absolute;
+    left: 182px;
+    top: 30px;
+    color: #666666;
+    font-size: 14px;
+    height: 50px;
+    padding: 0 8px 0;
+}
+.login-now{
+    position: absolute;
+    right: 0;
+    top: 30px;
+}
+.login-now span{
+    font-size: 14px;
+    color: #333333;
+    font-family: "Microsoft YaHei";
+}
+.login-now a{
+    font-size: 14px;
+    color: #cc0000;
+    text-decoration: none;
+    padding: 5px;
+}
+.login-now a:hover{
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #cc0000;
+}
+/*===================================注册表单式样=================================*/
+/*总体式样*/
+#content{
+    width: 990px;
+    height: 824px;
+    margin: 0 auto;
+}
+/*表单式样*/
+.form-wrap{
+    width: 970px;
+    height: 804px;
+    margin: 10px;
+    border: 1px solid #e6e6e6;
+    position: relative;
+}
+/*=======================表单标题式样====================*/
+.form-wrap .form-title{
+    width: 880px;
+    height: 60px;
+    line-height: 60px;
+    background-color: #fafafa;
+    padding-left: 90px;
+    font-size: 18px;
+    font-family: "Microsoft YaHei";
+    color: #9999a2;
+}
+/*===================表单注册具体内容式样================*/
+.form-mudle{
+    width: 600px;
+    height: auto;
+    margin-top: 28px;
+    margin-left: 90px;
+}
+/*注册方式（phone-email）标题栏*/
+.regist-kinds{
+    width: 100%;
+    height: 40px;
+}
+.regist-kinds li{
+    float: left;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    padding-left: 20px;
+    font-size: 18px;
+    font-family: "Microsoft YaHei";
+    color: #cc0000;
+    cursor: pointer;
+}
+.regist-kinds .phone{
+    width: 228px;
+    border-top: 2px solid #ffffff;
+    border-bottom: 1px solid #e6e6e6;
+    border-left: 1px solid #ffffff;
+    border-right: 1px solid #ffffff;
+    background: url("../images/regist_new.png") -95px -234px no-repeat;
+    border-bottom: 1px solid #e6e6e6;
+}
+.regist-kinds .email{
+    width: 229px;
+    border-top: 2px solid #ffffff;
+    border-bottom: 1px solid #e6e6e6;
+    border-left: 1px solid #ffffff;
+    border-right: 1px solid #ffffff;
+    background: url("../images/regist_new.png") -104px -325px no-repeat;
+}
+.regist-kinds .cur{
+    border-top: 2px solid #cc0000 ;
+    border-left: 1px solid #e6e6e6;
+    border-right: 1px solid #e6e6e6;
+    border-bottom: none;
+}
+/*具体表单验证项目*/
+.form-detial{
+    width: auto;
+    height: 65px;
+    margin-top: 20px;
+    position: relative;
+}
+.form-detial .lable{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 85px;
+    height: 40px;
+    line-height: 40px;
+    text-align: right;
+    font-size: 14px;
+    font-family: Arial;
+    color: #333;
+}
+.lable em{
+    height: 40px;
+    line-height: 40px;
+    margin-right: 8px;
+    font-size: 12px;
+    font-family: Simsun;
+    color: #f30;
+}
+.form-detial input{
+    position: absolute;
+    top: 0;
+    left: 85px;
+    width: 290px;
+    height: 40px;
+    border: 1px solid #e6e6e6;
+    font-size: 14px;
+}
+.form-detial span{
+    position: absolute;
+    top: 0;
+    left: 385px;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 20px;
+    color: #cc0000;
+    background: url("../images/regist_new.png") -155px -183px no-repeat;
+}
+.form-detial p{
+    position: absolute;
+    top: 50px;
+    left: 85px;
+    width: auto;
+    height: 15px;
+    font-size: 12px;
+    font-family: Arial;
+    color: #aaa;
+}
+/*=======验证码的式样======*/
+input.identify{
+    width: 170px;
+}
+/*图片验证码*/
+.form-detial img{
+    position: absolute;
+    top: 2px;
+    left: 265px;
+}
+.change{
+    position: absolute;
+    top: 13px;
+    left: 373px;
+}
+span.id-pic{
+    left: 420px;
+}
+/*短信验证码*/
+input.get-massage{
+    width: 110px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    left: 265px;
+    background-color: #f8f8f8;
+}
+/*是否同意协议*/
+.statement{
+    height: 20px;
+}
+input.yes-no{
+    width: 15px;
+    height: 15px;
+}
+.form-detial i{
+    position: absolute;
+    top: 0;
+    left: 105px;
+    font-size: 12px;
+    font-family: Arial;
+    color: #999999;
+}
+.form-detial .protocal{
+    position: absolute;
+    top: 0;
+    left: 130px;
+}
+.protocal a{
+    color: #134ba0;
+    font-size: 12px;
+    font-family: Arial;
+}
+.protocal a:hover{
+    color: #cc0000;
+    text-decoration: underline;
+}
+/*注册按钮*/
+input.regist_submit{
+    font-size: 14px;
+    font-family: Arial;
+    color: #ffffff;
+    background-color: #cc0000;
+    cursor: pointer;
+    border-radius: 5px;
+}
+input.registing_submit{
+    font-size: 14px;
+    font-family: Arial;
+    color: #ffffff;
+    background-color: #cc0000;
+    border-radius: 5px;
+    display: none;
+}
+/*先隐藏*/
+.warning{
+    display: none;
+}
+.twice{
+    display: none;
+}
+.form-detial .email{
+    display: none;
+}
+/*==================快速登陆式样=============*/
+.fast-regist{
+    width: 270px;
+    height: 250px;
+    position: absolute;
+    top: 88px;
+    left: 700px;
+    border-left: 1px solid #e6e6e6;
+}
+.fast-regist ul{
+    width: 170px;
+    height: auto;
+    margin-left: 25px;
+}
+.fast-regist li{
+    width: 170px;
+    height: 36px;
+    margin-top: 14px;
+}
+.fast-regist a{
+    display: inline-block;
+    width: 170px;
+    height: 36px;
+    background-image: url("../images/regist_new.png");
+    background-position-x: 0;
+    background-position-y: 0;
+}
+.fast-regist a:hover{
+    opacity: 0.5;
+}
+li.fast-tile{
+    height: 50px;
+    margin-top: 0;
+}
+li.fast-tile span{
+    display: inline-block;
+    height: 25px;
+    color: #666666;
+    font-size: 12px;
+    font-family: Arial;
+}
+li.fast-tile a{
+    display: inline;
+    background-image: none;
+}
+li.fast-tile a:hover{
+    opacity: 1;
+    color: #b10000;
+    text-decoration: underline;
+}
+
+/*==============================尾部式样=================================*/
+#footer{
+    width: 100%;
+    height: 54px;
+    border-top: 1px solid #e6e6e6;
+}
+#footer .foot-wrap{
+    width: 990px;
+    height: 54px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#footer ul{
+    position: absolute;
+    left: 0;
+    top: 15px;
+}
+#footer li{
+    float: left;
+    width: auto;
+    height: 13px;
+    line-height: 13px;
+    padding-left: 10px;
+}
+#footer li a{
+    margin-right: 10px;
+    color: #666666;
+    font-size: 12px;
+    font-family: Arial;
+}
+#footer li a:hover{
+    color: #cc0000;
+    text-decoration: underline;
+}
+#footer p{
+    position: absolute;
+    top: 15px;
+    right: 0;
+    color: #666666;
+    font-size: 12px;
+    font-family: Arial;
+}

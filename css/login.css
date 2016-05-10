@@ -1,0 +1,282 @@
+/*=======================================头部式样==============================*/
+#header {
+    width: 100%;
+    height: 120px;
+    background-color: #fafafa;
+}
+.login-wrap {
+    width: 990px;
+    height: 120px;
+    margin: 0 auto;
+    position: relative;
+}
+.logo-wrap{
+    display: block;
+    width: 368px;
+    height: 84px;
+    position: relative;
+}
+.logo{
+    position: absolute;
+    left: 0;
+    top: 12px;
+}
+.logoName{
+    position: absolute;
+    left: 182px;
+    top: 30px;
+    color: #666666;
+    font-size: 14px;
+    height: 50px;
+    padding: 0 8px 0;
+}
+.login-now{
+    position: absolute;
+    right: 0;
+    top: 30px;
+}
+.login-now span{
+    font-size: 14px;
+    color: #333333;
+    font-family: "Microsoft YaHei";
+}
+.login-now a{
+    font-size: 14px;
+    color: #cc0000;
+    text-decoration: none;
+    padding: 5px;
+}
+.login-now a:hover{
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #cc0000;
+}
+/*===================================登录表单式样=================================*/
+/*整体式样*/
+#content{
+    width: 100%;
+    height: 422px;
+    background-color: #fafafa;
+}
+/*外壳式样*/
+.content-wrap{
+    width: 990px;
+    height: 350px;
+    margin: 0 auto;
+    border: 1px solid #dcdcdc;
+    position: relative;
+    background-color: #ffffff;
+}
+/*商城logo展示式样*/
+.content-wrap .logo{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+/*==========登陆输入框式样=========*/
+.content-wrap .form-wrap{
+    width: 290px;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 614px;
+}
+/*标题及登陆方式选择式样*/
+.form-wrap .form-title{
+    width: 100%;
+    height: 50px;
+    position: relative;
+}
+/*标题式样*/
+.form-title .title{
+    font-size: 18px;
+    font-family: "Microsoft YaHei";
+    color: #666666;
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+}
+/*登陆方式式样*/
+.form-title .login-ways{
+    position: absolute;
+    bottom: 5px;
+    right: 0;
+}
+.login-ways a{
+    font-size: 12px;
+    font-family: "Microsoft YaHei";
+    color: #333333;
+}
+.login-ways a:hover{
+    color: #cc0000;
+    text-decoration: underline;
+}
+.login-ways i{
+    display: inline-block;
+    width: 15px;
+    height: 16px;
+    margin-right: 5px;
+    background: url("../images/login-news.png") -275px -118px no-repeat;
+}
+.login-ways .userName i{
+    background: url("../images/login-news.png") -274px -143px no-repeat;
+}
+.login-ways .userName{
+    display: none;
+}
+/*===========输入框样式============*/
+/*公共式样*/
+.form-mudle input{
+    width: 278px;
+    height: 28px;
+    border: 1px solid #cccccc;
+    margin-bottom: 10px;
+    padding: 5px;
+    color:#cccccc;
+    font-size: 14px;
+}
+.form-mudle .warnings{
+    width: 288px;
+    height: 22px;
+    border: 1px solid #ff9999;
+    background-color: #fff2f2;
+    margin-bottom: 5px;
+    visibility: hidden;
+}
+.warnings li{
+    font-size: 12px;
+    height: 22px;
+    margin-bottom: 2px;
+    /*display: none;*/
+ }
+.warnings li i{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url("../images/login-news.png") -275px -91px no-repeat;
+}
+/*手机动态码登录*/
+.form-mudle .phone{
+    width: 100%;
+    height: auto;
+}
+.form-mudle .phone a{
+    display: block;
+    width: 100%;
+    height: 14px;
+    text-align: right;
+    margin-bottom: 20px;
+}
+.form-mudle .phone a:hover{
+    color: #cc0000;
+    text-decoration: underline;
+}
+/*普通方式登录*/
+.form-mudle .userName{
+    display: none;
+}
+.form-mudle input.identify{
+    width: 178px;
+}
+.identify-pic input{
+    float: left;
+}
+.identify-pic img{
+    float: right;
+}
+.identify-mag .identify{
+    float: left;
+}
+.identify-mag .get-massage{
+    width: 89px;
+    float: right;
+    border-left: 0;
+    background-color: #f8f8f8;
+    color: buttontext;
+}
+/*===========注册按钮==========*/
+.form-mudle .regist-btn input{
+    border: hidden;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: Arial;
+    background: url("../images/login-news.png") 0 0 no-repeat;
+}
+.form-mudle .regist-btn input:hover{
+    background: url("../images/login-news.png") 0 -41px no-repeat;
+}
+input.registing_submit{
+    display: none;
+}
+/*=========合作登陆==========*/
+.link-regist{
+    margin-top: 5px;
+    width: 100%;
+    height: 39px;
+}
+.link-regist i{
+    float: left;
+    display: inline-block;
+    width: 90px;
+    height: 39px;
+    line-height: 39px;
+    color: #666666;
+    font-size: 12px;
+    font-family: Arial ;
+}
+.link-regist a{
+    float: left;
+    display: inline-block;
+    width: 39px;
+    height: 39px;
+    background-image: url("../images/login-news.png");
+    background-position: 0 -81px;
+    margin-right: 10px;
+}
+.link-regist a:hover{
+    background-position: 0px -120px;
+}
+/*=====================================尾部式样===================================*/
+#footer{
+    width: 100%;
+    height: 156px;
+    border-top: 1px solid #e6e6e6;
+    background-color: #fafafa;
+}
+#footer .foot-wrap{
+    width: 990px;
+    height: 54px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#footer ul{
+    position: absolute;
+    left: 0;
+    top: 15px;
+}
+#footer li{
+    float: left;
+    width: auto;
+    height: 13px;
+    line-height: 13px;
+    padding-left: 10px;
+}
+#footer li a{
+    margin-right: 10px;
+    color: #666666;
+    font-size: 12px;
+    font-family: Arial;
+}
+#footer li a:hover{
+    color: #cc0000;
+    text-decoration: underline;
+}
+#footer p{
+    position: absolute;
+    top: 15px;
+    right: 0;
+    color: #666666;
+    font-size: 12px;
+    font-family: Arial;
+}

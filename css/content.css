@@ -1,0 +1,534 @@
+/*内容区域的公共样式*/
+#content{
+    width: 100%;
+    height: 4310px;
+    background-color: #fef5e6;
+    border: 1px solid black;
+    border-bottom: 2px solid #ce1a1b;
+}
+/*内容区域的版心样式*/
+.content-wrap{
+    width: 990px;
+    height: 100%;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+
+}
+/*========================内容导航栏的外层样式==========================*/
+.content-navi{
+    margin-top: 20px;
+    width: auto;
+    height: 92px;
+    border: 1px solid #d9c7a7;
+    border-top: 2px solid #b10000;
+    background-color: #ffffff;
+}
+/*两列分类行的公共式样*/
+.content-navi ul{
+    width: 100%;
+    height: 25px;
+    line-height: 25px;
+    margin-left: 20px;
+    padding: 10px 0;
+    border-bottom: 1px dashed #999999;
+}
+/*默认鼠标移上效果*/
+.content-navi .cur{
+    background-color: #b10000;
+}
+/*排序方式中去除下边线*/
+.content-navi .sorts{
+    border-bottom: 0px;
+ }
+/*导航栏中li的公共式样*/
+.content-navi li{
+    width: auto;
+    height: 20px;
+    line-height: 20px;
+    float: left;
+    padding: 0 10px;
+}
+/*鼠标移上效果*/
+.content-navi li:hover{
+    background-color: #ce1a1b;
+}
+/*清除标题的鼠标移上效果*/
+li.sort-title:hover,li.kinds-title:hover{
+    background: transparent;
+}
+/*排序方式中的背景色和边线的设置*/
+.sorts li{
+    border: 1px solid #e6e6e6;
+    background-color: #f7f7f7;
+
+}
+/*排序方式中标题列的背景色和边线的设置*/
+.sorts .sort-title{
+    /*font-family:"Microsoft YaHei";*/
+    border: none;
+    background-color: #ffffff;
+}
+/*排序方式中图标的设置*/
+.sorts span{
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background: url("../images/new-bg.png") -88px -135px no-repeat;
+    margin-left: 5px;
+}
+/*===========================商品列表式样==============================*/
+.content-detial{
+    margin-top: 20px;
+    width: 739px;
+    height: 4000px;
+    position: relative;
+}
+/*左边列表*/
+.content-detial-left{
+    width: 360px;
+    height: 3940px;
+}
+/*右边列表*/
+.content-detial-right{
+    width: 360px;
+    height: 3940px;
+    position: absolute;
+    top: 0;
+    left: 380px;
+}
+/*li的公共样式*/
+.content-detial li{
+    width: 340px;
+    height: 356px;
+    background: #ffffff;
+    border: 1px solid #d9c7a7;
+    margin-bottom: 20px;
+    padding: 9px;
+}
+.content-detial li:hover{
+    border: 1px solid #b10000;
+}
+/*最后一个li的去掉下边距*/
+.li-last{
+    margin-bottom: 0;
+}
+/*======商品详情样式======*/
+/*整体式样*/
+.content-detial dt a{
+    display: block;
+    width: 100%;
+    height: 235px;
+}
+.content-detial dt a.fun{
+    display: block;
+    width: 100%;
+    height: 24px;
+}
+.content-detial dt a:hover{
+    color: #ce1a1b;
+    text-decoration: underline;
+}
+.content-detial dt a.fun:hover{
+    text-decoration: none;
+}
+.content-detial dt a span{
+    display: block;
+    width: 100%;
+    height: 24px;
+    line-height: 24px;
+    /*省略号的写法（固定宽度+三条件）*/
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+/*商品名称式样*/
+span.title{
+    font-size: 16px;
+    font-family: "Microsoft YaHei";
+    color: #333333;
+}
+/*商品描述式样*/
+span.desc{
+    font-size: 14px;
+    font-family: "Microsoft YaHei";
+    color: #999;
+}
+/*=======商品价格=========*/
+/*整体式样*/
+.price{
+    width: 100%;
+    height: 60px;
+    position: relative;
+    border-bottom: 1px solid #dbdbdb;
+}
+/*当前价格式样*/
+.price-now{
+    font-size: 20px;
+    font-family: Arial;
+    color: #c00;
+}
+.price-now em{
+    font-size: 32px;
+    font-family: Tahoma;
+}
+/*以前价格式样*/
+.price-before{
+    margin: 10px;
+    color: #999999;
+    text-decoration: line-through;
+}
+/*商品折扣式样*/
+.price-discount{
+    position: absolute;
+    right: 0;
+    bottom: 50%;
+    color: #c00;
+    font-size: 18px;
+}
+/*========结束倒计时和关注人数=========*/
+/*整体式样*/
+.detial-foot{
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    position: relative;
+    color: #666666;
+}
+/*倒计时式样*/
+.deadline em{
+    color: #c00;
+}
+/*关注人数式样*/
+.attention{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+/*=======================热门商品展示式样========================*/
+/*整体式样*/
+.content-hot{
+    width: 230px;
+    height: 1352px;
+    position: absolute;
+    top: 135px;
+    left: 758px;
+}
+/*======轮播图式样=======*/
+/*轮播图外层式样*/
+.hot-carousel{
+    width: 228px;
+    height: 185px;
+    overflow: hidden;
+    position: relative;
+}
+.hot-carousel li{
+    float: left;
+}
+/*商品大图式样*/
+.hot-carousel-list{
+    width: 2000px;
+    height: 185px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #b10000;
+}
+/*数字标号小图式样*/
+.hot-carousel-btn{
+    position: absolute;
+    top: 165px;
+    left: 165px;
+}
+.hot-carousel-btn li{
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    text-align: center;
+    margin-right: 5px;
+    color: #ffffff;
+    background-color: rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+.hot-carousel-btn .cur{
+    background-color: #b10000;
+}
+/*前进后退键的式样*/
+.pre{
+    position: absolute;
+    top: 80px;
+    left: 0;
+    display: block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 20px;
+    color: #ffffff;
+    background: rgba(0,0,0,0.8);
+    display: none;
+}
+.nex{
+    position: absolute;
+    top: 80px;
+    left: 200px;
+    display: block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 20px;
+    color: #ffffff;
+    background: rgba(0,0,0,0.8);
+    display: none;
+}
+/*============热门专题===========*/
+.hot-theme{
+    width: 228px;
+    height: 396px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #d9c7a7;
+}
+.hot-theme h3{
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    padding-left: 10px;
+    border-bottom: 1px solid #d9c7a7;
+}
+/*============Z团答疑===========*/
+/*整体的样式*/
+.hot-qustion{
+    width: 228px;
+    height: 266px;
+    margin-bottom: 10px;
+    border: 1px solid #d9c7a7;
+    background-color: #ffffff;
+}
+/*li的公共样式*/
+.hot-qustion li{
+    width: 208px;
+    height: auto;
+    padding: 8px 0px 8px 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-bottom: 1px dashed #e6e6e6;
+    overflow: hidden;
+ }
+/*====title的样式===*/
+.hot-qustion .hot-title{
+    width: 228px;
+    padding: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-bottom: none;
+}
+.hot-qustion h3{
+    width: 228px;
+    height: 35px;
+    line-height: 35px;
+    border-bottom: 1px solid #d9c7a7;
+    background-color: #fffaf2;
+    padding-left: 10px;
+}
+/*===more的具体样式===*/
+.hot-qustion .hot-more{
+    border-bottom: none;
+    text-align: center;
+}
+/*====图标的式样*/
+.hot-qustion li span{
+    display: block;
+    width: 14px;
+    height: 14px;
+    background: url("../images/new-bg.png") -95px -32px no-repeat;
+    float: left;
+}
+/*文本的式样*/
+.hot-qustion li  p{
+    width: 185px;
+    height: auto;
+    float: left;
+    margin-left: 5px;
+}
+.hot-qustion a{
+    color: #333333;
+}
+.hot-qustion a:hover{
+    color: #ce1a1b;
+    text-decoration: underline;
+}
+/*============大家在看什么===========*/
+/*整体的样式*/
+.hot-attention{
+    width: 228px;
+    height: 470px;
+    border: 1px solid #d9c7a7;
+    background-color: #ffffff;
+}
+/*li的公共样式*/
+.hot-attention li{
+    width: 208px;
+    height: auto;
+    padding: 8px 0px 8px 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-bottom: 1px dashed #e6e6e6;
+    overflow: hidden;
+}
+/*文本标题的式样*/
+.hot-attention li  p{
+    margin-bottom: 10px;
+}
+/*超链接式样*/
+.hot-attention a{
+    color: #333333;
+}
+.hot-attention a:hover{
+    color: #ce1a1b;
+    text-decoration: underline;
+}
+/*====title的样式===*/
+.hot-attention .hot-title{
+    padding: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-bottom: none;
+}
+.hot-attention .hot-title{
+    width: 216px;
+    height: 35px;
+    line-height: 35px;
+    border-bottom: 1px solid #d9c7a7;
+    background-color: #fffaf2;
+    padding-left: 10px;
+}
+/*=====change的具体样式=====*/
+.hot-attention .hot-change{
+    border-bottom: none;
+    margin-top: 15px;
+    position: relative;
+}
+/*change图标的式样*/
+.hot-attention .hot-change span{
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    margin-right: 5px;
+
+}
+.hot-attention .hot-change a{
+    display: block;
+    width: 74px;
+    height: 14px;
+    background: url("../images/new-bg.png") -95px -183px no-repeat;
+    position: absolute;
+    top: 0px;
+    left: 40%;
+ }
+.hot-attention .hot-change a:hover{
+    background: url("../images/new-bg.png") -95px -207px no-repeat;
+    text-decoration: none;
+}
+/*====无序列表样式====*/
+/*整体式样*/
+.hot-attention dl{
+    width: 205px;
+    height: 60px;
+    margin-bottom: 10px;
+}
+/*图片式样*/
+.hot-attention dt{
+    width: 100px;
+    float: left;
+}
+/*价格、浏览量式样*/
+.hot-attention dd{
+    width: 90px;
+    float: left;
+    margin-left: 10px;
+}
+.hot-attention dd span{
+    display: block;
+}
+span.hot-attention-price{
+    margin-top: 20px;
+    color: #cc0000;
+    font-size: 18px;
+ }
+span.hot-attention-view{
+    margin-top: 5px;
+    color: #666666;
+    font-size: 12px;
+}
+/*========================团购内容导航栏的样式==========================*/
+/*整体样式*/
+.content-Bnavi{
+    margin-top: 60px;
+    width: auto;
+    height: 88px;
+    border: 1px solid #d9c7a7;
+    background-color: #ffffff;
+}
+.content-Bnavi a:hover{
+    text-decoration: underline;
+}
+/*一级导航式样*/
+.first-level{
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    /*border-bottom: 1px solid #d9c7a7;*/
+    background-color: #fffaf2;
+}
+.first-level li{
+    width: auto;
+    height: 33px;
+    line-height: 33px;
+    float: left;
+    padding: 0 10px;
+    border-right: 1px solid #e6e6e6;
+    border-bottom: 1px solid #d9c7a7;
+}
+.first-level a{
+    font-size: 16px;
+    color: #666666;
+}
+/*二级导航栏样式*/
+.second-degital{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    display: block;
+
+}
+.second-degital li{
+    width: auto;
+    height: 35px;
+    line-height: 35px;
+    float: left;
+    padding: 0 10px;
+}
+.second-new{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    display: none;
+}
+.second-new li{
+    width: auto;
+    height: 35px;
+    line-height: 35px;
+    float: left;
+    padding: 0 10px;
+}
+/*默认鼠标移上效果*/
+.content-Bnavi .cur{
+    background-color: #ffffff;
+    border-top: 2px solid #b10000;
+    border-bottom: none;
+}
+
+
+

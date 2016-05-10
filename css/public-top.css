@@ -1,0 +1,184 @@
+/*==========================注册登录信息==========================*/
+/*注册登陆信息-整体式样*/
+.top-bar{
+    width: 100%;
+    height: 31px;
+    line-height: 31px;
+    border-bottom: 1px solid #dedede;
+    background: #efefef;
+}
+
+/*注册登陆信息-版心式样*/
+.top-wrap{
+    width: 990px;
+    margin: auto;
+
+}
+
+.site-about li{
+    float: left;
+    color: #333333;
+
+}
+/*订阅团购推荐式样*/
+.site-about .title{
+    display: inline-block;
+    width: 85px;
+    height: 31px;
+    background: url("../images/ztuan_head_bg.png") 50px -207px no-repeat;
+    font-size: 12px;
+    font-family: Arial;
+    color: #666;
+}
+
+.site-about .title:hover{
+
+    background: url("../images/ztuan_head_bg.png") 60px -237px no-repeat;
+}
+/*客服电话式样*/
+.site-about .tel{
+    color: #ce1a1b;
+}
+/*注册登陆信息-超链接式样*/
+.top-bar a{
+    font-size: 12px;
+    font-family: Arial;
+    color: #666;
+}
+.top-bar a:hover{
+    font-size: 12px;
+    font-family: Arial;
+    color: #ce1a1b;
+    text-decoration: underline;
+}
+/*登录标签式样*/
+.user-about span{
+     color: #666;
+ }
+.user-about span a{
+    color: blue;
+}
+/*======================搜索栏开始===============================*/
+
+.top-search{
+    width: 990px;
+    height: 90px;
+    margin: auto;
+    position: relative;
+ }
+
+.top-search .logo{
+    width: 120px;
+    height: 46px;
+    background: url("../images/tuan_logo_120x46.png");
+    position: absolute;
+    top:22px;
+    left: 0px;
+}
+
+.top-search .search{
+
+    position: absolute;
+    top:30px;
+    left: 319px;
+}
+
+.top-search .search .text{
+    width: 305px;
+    height: 22px;
+    font-size: 12px;
+    font-family: Arial;
+    color: #999999;
+    padding: 8px 10px;
+    border: 1px solid #cccccc;
+}
+
+.top-search .search .btn{
+    width: 74px;
+    height: 40px;
+    font-size: 14px;
+    font-family: "Microsoft YaHei";
+    color: #ffffff;
+    background-color: #ce1a1b;
+}
+
+.top-search .service li{
+    float: left;
+}
+
+.top-search .service li a{
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 70px;
+    margin-left: 30px;
+    background: url("../images/ztuan_head_bg.png") 8px 20px no-repeat;
+}
+
+.top-search .service li a span{
+    height: 15px;
+    position: absolute;
+    bottom: 0px;
+    font-size: 12px;
+    font-family: "Microsoft YaHei";
+    color: #666;
+}
+/*========================顶部导航栏开始=============================*/
+/*顶部导航栏的整体式样*/
+.top-navigation{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background: #ce1a1b;
+    position: relative;
+}
+
+.top-navigation .cur{
+    background-color: #b10000;
+}
+/*顶部导航栏的版心式样*/
+.wrap-navi{
+    width: 990px;
+    height: 40px;
+    line-height: 40px;
+    margin: auto;
+}
+/*li的样式*/
+.navi-list li{
+    /*width: auto;*/
+    height: 40px;
+    float: left;
+    padding: 0 10px 0;
+ }
+
+.wrap-navi a{
+    font-size: 16px;
+    font-family: "Microsoft YaHei";
+    color: #ffffff;
+}
+.recent{
+    width: 150px;
+    text-align: center;
+}
+.recent span{
+    display: inline-block;
+    width: 15px;
+    height: 8px;
+    margin-left: 10px;
+    background: url("../images/ztuan_head_bg.png") -8px -284px no-repeat;
+}
+.browe-history{
+    width: 200px;
+    padding: 10px 35px 10px 32px;
+    background-color: #b10000;
+    position: absolute;
+    top: 40px;
+    right: 135px;
+    display: none;
+    z-index: 10;
+}
+.no-history{
+    color: #ffffff;
+    text-align: center;
+}
+

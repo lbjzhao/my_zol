@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录- ZOL商城</title>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+<body>
+    <div id="header">
+        <div class="login-wrap">
+            <a href="#" class="logo-wrap">
+                <img src="../images/regist_logo_182x60.png" alt="" class="logo">
+                <p class="logoName">中关村在线旗下网上商城</p>
+            </a>
+            <div class="login-now">
+                <span>还没有ZOL商城账号？</span>
+                <a href="#">立即注册</a>
+            </div>
+        </div>
+    </div>
+    <div id="content">
+        <div class="content-wrap">
+            <!--商城logo展示-->
+            <a href="index.html" class="logo"><img src="../images/login-content.jpg" alt=""></a>
+            <!--登陆输入框-->
+            <div class="form-wrap">
+                <!--标题及登陆方式选择-->
+                <div class="form-title">
+                    <!--标题-->
+                    <h3 class="title">登录ZOL商城</h3>
+                    <!--登陆方式-->
+                    <div class="login-ways">
+                        <!--手机动态码登录-->
+                        <span class="phone"><a href="#"><i></i>手机动态码登录</a></span>
+                        <!--普通方式登录-->
+                        <span class="userName"><a href="#"><i></i>普通方式登录</a></span>
+                    </div>
+                </div>
+                <!--输入框样式-->
+                <div class="form-mudle">
+                    <form action="">
+                        <!--手机动态码登录-->
+                        <div class="phone loginWays">
+                            <ul class="warnings">
+                                <li class="warning"><i></i>请填写手机号</li>
+                                <li class="warning"><i></i>图片验证码错误，请重新填写</li>
+                                <li class="warning"><i></i>验证码错误，请重新获取验证码</li>
+                            </ul>
+                            <input type="text" name="phonenum" class="phonenum" onclick="this.value=''" value="手机号/邮箱/用户名">
+                            <input type="text" name="password" class="password" onclick="this.value=''" value="密码">
+                            <a href="#">忘记密码？</a>
+                        </div>
+                        <!--普通方式登录-->
+                        <div class="userName loginWays">
+                            <ul class="warnings">
+                                <li class="warning"><i></i>请填写手机号</li>
+                                <li class="warning"><i></i>图片验证码错误，请重新填写</li>
+                                <li class="warning"><i></i>验证码错误，请重新获取验证码</li>
+                            </ul>
+                            <input type="text" name="phonenum" class="phonenum" onclick="this.value=''" value="手机号">
+                            <div class="identify-pic">
+                                <input type="text" name="identify-p" class="identify" onclick="this.value=''" value="图片验证码">
+                                <img src="../images/regist_identify.png" alt="">
+                            </div>
+                            <div class="identify-mag">
+                                <input type="text" name="identify-m" class="identify" onclick="this.value=''" value="短信验证码">
+                                <input type="button" value="发送验证码" class="get-massage">
+                            </div>
+                        </div>
+                        <!--注册按钮-->
+                        <div class="regist-btn">
+                            <input name="rigist_submit" type="button" value="登录" class="regist_submit">
+                            <input name="rigisting_submit" type="button" value="正在登录..." class="registing_submit">
+                        </div>
+                    </form>
+                </div>
+                <!--合作登陆-->
+                <div class="link-regist">
+                    <i>合作账号登录：</i><a href="#"></a><a href="#"></a><a href="#"></a></a><a href="#"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <div class="foot-wrap">
+            <ul>
+                <li><a href="#">关于ZOL商城</a>丨</li>
+                <li><a href="#">联系我们</a>丨</li>
+                <li><a href="#">帮助中心</a></li>
+            </ul>
+            <p>©2016. 中关村在线 版权所有</p>
+        </div>
+    </div>
+    <script src="../js/jquery-1.11.3.js"></script>
+    <script src="../js/jquery-1.7.2.min.js"></script>
+    <script src="../js/login.js"></script>
+</body>
+</html>

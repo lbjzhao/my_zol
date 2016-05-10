@@ -1,0 +1,76 @@
+#public-foot{
+     width: 100%;
+     height: 258px;
+     background-color: #f8f8f8;
+ }
+
+.foot-wrap{
+    width: 990px;
+    height: 100%;
+    margin: auto;
+    overflow: hidden;/**/
+}
+.link{
+    width: 100%;
+    height: 174px;
+    margin-top: 43px;
+    border-bottom: 1px solid #dddddd;
+}
+.link ul{
+    width: 110px;
+    height: 144px;
+    float: left;
+    border-right: 1px solid #ddd;
+    padding: 0 20px;
+    margin-bottom: 30px;
+}
+.link ul.first{
+    padding-left: 0px;
+}
+.link ul.tele{
+     width: 180px;
+     font-size: 20px;
+     color: #ce1a1b;
+    border: none;
+ }
+.link ul.tele h3{
+    font-size: 24px;
+    color: #ce1a1b;
+}
+.link li{
+    height: 30px;
+    line-height: 30px;
+}
+
+.link h3{
+    font-size: 18px;
+    font-family: "Microsoft YaHei";
+    color: #333333;
+}
+
+.link a{
+    font-size: 14px;
+    font-family: "Microsoft YaHei";
+    color: #666666;
+}
+.link a:hover{
+    text-decoration: underline;
+}
+.copyright{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+}
+.copyright span{
+    color: #666666;
+}
+.link-us a{
+    font-size: 8px;
+    color: #444;
+    margin-left: 10px;
+}
+.link-us a:hover{
+    font-size: 8px;
+    color: #ce1a1b;
+    text-decoration: underline;
+}
